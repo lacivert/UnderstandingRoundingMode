@@ -10,7 +10,7 @@ public class UnderstandingRoundingMode {
         Scanner s = new Scanner(System.in);
         
         while(true){
-            System.out.print("Enter value: ");
+            System.out.print("Enter value, or q to quit: ");
             String next = s.next();
             
             if(!next.toLowerCase().equals("q")){
